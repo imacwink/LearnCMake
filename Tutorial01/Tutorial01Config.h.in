@@ -1,0 +1,4 @@
+// the configured options and settings for Tutorial01
+#define Tutorial01_VERSION_MAJOR @Tutorial01_VERSION_MAJOR@
+#define Tutorial01_VERSION_MINOR @Tutorial01_VERSION_MINOR@
+
