@@ -31,30 +31,31 @@ references useful guides and recipes.
 Some specific examples may require other tools including:
 
 * http://www.boost.org/[boost]
-
+```
   $ sudo apt-get install libboost-all-dev
-
+```
 * https://github.com/google/protobuf[protobuf]
-
+```
   $ sudo apt-get install libprotobuf-dev
   $ sudo apt-get install protobuf-compiler
-
+```
 * http://cppcheck.sourceforge.net/[cppcheck]
-
+```
   $ sudo apt-get install cppcheck
-
+```
 * http://clang.llvm.org/[clang]
-
+```
   $ sudo apt-get install clang-3.6
-
+```
 * https://ninja-build.org/[ninja]
-
+```
   $ sudo apt-get install ninja-build
-
+```
 * link:https://conan.io[conan]
-
+```
   $ sudo apt-get install python3 python3-pip
   $ sudo pip3 install conan
+```
 
 ## Include
 
