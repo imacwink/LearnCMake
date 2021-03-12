@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/installing/Hello.h
+
+/home/macwink/Workspace/LearnCMake/01-basic/05-installing/src/installing/Hello.cxx
+iostream
+-
+installing/Hello.h
+/home/macwink/Workspace/LearnCMake/01-basic/05-installing/src/installing/installing/Hello.h
+

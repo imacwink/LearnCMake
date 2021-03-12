@@ -59,8 +59,8 @@ Some specific examples may require other tools including:
 
 ## Include
 
-- link:00-concept[concept]. Mainly include CMake basic grammar learning.
-- link:01-basic[basic]. Basic examples in this directory show how the setup a CMake project.
+- [concept](https://github.com/imacwink/LearnCMake/tree/master/00-concept) - Mainly include CMake basic grammar learning.
+- [basic](https://github.com/imacwink/LearnCMake/tree/master/01-basic) - Basic examples in this directory show how the setup a CMake project.
 
 ## Supported Platforms
 - Microsoft Windows
