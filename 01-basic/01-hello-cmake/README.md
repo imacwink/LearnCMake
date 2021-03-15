@@ -65,7 +65,7 @@ add_executable(${PROJECT_NAME} main.cpp)
 
 - For example:
 
-```shell
+```console
 macwink@macwink-Lenovo-Yoga-C940-14IIL:~/Workspace/LearnCMake/01-basic/01-hello-cmake$ cmake .
 -- The C compiler identification is GNU 7.5.0
 -- The CXX compiler identification is GNU 7.5.0
@@ -144,7 +144,7 @@ Hello macwink! Welcome to the world of CMake!!
 
 - For example:
 
-```cmake
+```console
 macwink@macwink-Lenovo-Yoga-C940-14IIL:~/Workspace/LearnCMake/01-basic/01-hello-cmake$ mkdir build
 macwink@macwink-Lenovo-Yoga-C940-14IIL:~/Workspace/LearnCMake/01-basic/01-hello-cmake$ cd build/
 macwink@macwink-Lenovo-Yoga-C940-14IIL:~/Workspace/LearnCMake/01-basic/01-hello-cmake/build$ cmake ..
