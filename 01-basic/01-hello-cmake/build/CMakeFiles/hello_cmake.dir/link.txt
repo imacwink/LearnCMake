@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/hello_cmake.dir/main.cxx.o  -o hello_cmake 
