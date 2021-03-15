@@ -2,12 +2,14 @@
 
 > Shows a very basic hello world example. The files in this tutorial are below:
 
-```
-01-hello-cmake$ tree
+```console
+macwink@macwink-Lenovo-Yoga-C940-14IIL:~/Workspace/LearnCMake/01-basic/01-hello-cmake$ tree
 .
 ├── CMakeLists.txt
 ├── main.cxx
 └── README.md
+
+0 directories, 3 files
 ```
 
 - [CMakeLists.txt]() - Contains the CMake commands you wish to run.
