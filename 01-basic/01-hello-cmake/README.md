@@ -39,7 +39,7 @@ project (hello_cmake)
 
 ### Creating an Executable
 
-> The +add_executable()+ command specifies that an executable should be build from the specified source files, in this example main.cpp. The first argument to the +add_executable()+ function is the name of the executable to be built, and the second argument is the list of source files to compile.
+> The **add_executable()** command specifies that an executable should be build from the specified source files, in this example main.cpp. The first argument to the **add_executable()** function is the name of the executable to be built, and the second argument is the list of source files to compile.
 
 ```cmake
 add_executable(hello_cmake main.cpp)
@@ -55,7 +55,7 @@ project (hello_cmake)
 add_executable(${PROJECT_NAME} main.cpp)
 ```
 
-> In this example, the +project()+ function, will create a variable +${PROJECT_NAME}+ with the value hello_cmake. This can then be passed to the +add_executable()+ function to output a 'hello_cmake' executable.
+> In this example, the **project()** function, will create a variable **${PROJECT_NAME}** with the value hello_cmake. This can then be passed to the **add_executable()** function to output a 'hello_cmake' executable.
 
 ### Binary Directory
 
