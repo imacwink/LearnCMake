@@ -29,23 +29,14 @@ macwink@macwink-Lenovo-Yoga-C940-14IIL:~/Workspace/LearnCMake/01-basic/02-hello-
 
 > CMake syntax specifies a number of [variables](https://gitlab.kitware.com/cmake/community/-/wikis/doc/cmake/Useful-Variables) which can be used to help find useful directories in your project or source tree. Some of these include:
 
-[cols=",",options="header",]
-|=======================================================================
-|Variable |Info
-|CMAKE_SOURCE_DIR |The root source directory
-
-|CMAKE_CURRENT_SOURCE_DIR |The current source directory if using
-sub-projects and directories.
-
-|PROJECT_SOURCE_DIR |The source directory of the current cmake project.
-
-|CMAKE_BINARY_DIR |The root binary / build directory. This is the
-directory where you ran the cmake command.
-
-|CMAKE_CURRENT_BINARY_DIR |The build directory you are currently in.
-
-|PROJECT_BINARY_DIR |The build directory for the current project.
-|=======================================================================
+| __Variable__ | __Info__ |
+| :---: | :----: |
+| CMAKE_SOURCE_DIR | The root source directory |
+|CMAKE_CURRENT_SOURCE_DIR |The current source directory if using sub-projects and directories.|
+|PROJECT_SOURCE_DIR |The source directory of the current cmake project.|
+|CMAKE_BINARY_DIR |The root binary / build directory. This is the directory where you ran the cmake command.|
+|CMAKE_CURRENT_BINARY_DIR |The build directory you are currently in.|
+|PROJECT_BINARY_DIR |The build directory for the current project.|
 
 ### Source Files Variable
 
@@ -61,23 +52,14 @@ set(SOURCES
 add_executable(${PROJECT_NAME} ${SOURCES})
 ```
 
-
-[NOTE]
-====
-An alternative to setting specific file names in the **SOURCES** variable is to use a GLOB command to find files using wildcard pattern matching.
+| __NOTE__     |  An alternative to setting specific file names in the **SOURCES** variable is to use a GLOB command to find files using wildcard pattern matching.
 
 ```cmake
 file(GLOB SOURCES "src/*.cpp")
-```
-====
+```|
 
 
-[TIP]
-====
-For modern CMake it is NOT recommended to use a variable for sources. Instead it is typical to directly declare the sources in the *add_xxx function*.
-
-This is particularly important for glob commands which may not always show you the correct results if you add a new source file.
-====
+| __TIP__ |For modern CMake it is NOT recommended to use a variable for sources. Instead it is typical to directly declare the sources in the *add_xxx function*. This is particularly important for glob commands which may not always show you the correct results if you add a new source file.|
 
 ### Including Directories
 
@@ -90,7 +72,7 @@ target_include_directories(target
 )
 ```
 
-The **PRIVATE** identifier specifies the scope of the include. This is important for libraries and is explained in the next example. More details on the function is available [here](https://cmake.org/cmake/help/v3.0/command/target_include_directories.html).
+> The **PRIVATE** identifier specifies the scope of the include. This is important for libraries and is explained in the next example. More details on the function is available [here](https://cmake.org/cmake/help/v3.0/command/target_include_directories.html).
 
 ## Building the Example
 
@@ -132,7 +114,7 @@ Hello Headers!
 ### Verbose Output
 > In the previous examples, when running the make command the output only shows the status of the build. To see the full output for debugging purposes you can add **VERBOSE=1** flag when running make.
 
-The VERBOSE output is show below, and a examination of the output shows the include directories being added to the c++ compiler command.
+> The VERBOSE output is show below, and a examination of the output shows the include directories being added to the c++ compiler command.
 
 ```console
 macwink@macwink-Lenovo-Yoga-C940-14IIL:~/Workspace/LearnCMake/01-basic/02-hello-headers/build$ make clean
@@ -160,7 +142,7 @@ make[1]: Leaving directory '/home/macwink/Workspace/LearnCMake/01-basic/02-hello
 /usr/bin/cmake -E cmake_progress_start /home/macwink/Workspace/LearnCMake/01-basic/02-hello-headers/build/CMakeFiles 0
 ```
 
-If you are familiar with gcc and g++ command-line compilation, are you familiar with the following execution process?
+> If you are familiar with gcc and g++ command-line compilation, are you familiar with the following execution process?
 
 ```console
 [ 33%] Building CXX object CMakeFiles/hello_headers.dir/src/Hello.cxx.o
