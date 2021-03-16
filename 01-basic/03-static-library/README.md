@@ -66,7 +66,7 @@ The meaning of scopes are:
 - **PUBLIC** - As above, it is included in this library and also any targets that link this library.
 
 ### TIP
-> For public headers it is often a good idea to have your include folder be "namespaced" with sub-directories. 
+For public headers it is often a good idea to have your include folder be "namespaced" with sub-directories. 
 
 The directory passed to **target_include_directories** will be the root of your include directory tree and your C++ files should include the path from there to your header.
 
