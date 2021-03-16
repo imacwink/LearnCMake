@@ -52,15 +52,15 @@ set(SOURCES
 add_executable(${PROJECT_NAME} ${SOURCES})
 ```
 
-| _NOTE_     |  An alternative to setting specific file names in the **SOURCES** variable is to use a GLOB command to find files using wildcard pattern matching.
+### NOTE
+> An alternative to setting specific file names in the **SOURCES** variable is to use a GLOB command to find files using wildcard pattern matching.
+
 ```cmake
 file(GLOB SOURCES "src/*.cpp") 
 ```
-|
-| ------------ | --- |
 
-| _TIP_ |For modern CMake it is NOT recommended to use a variable for sources. Instead it is typical to directly declare the sources in the *add_xxx function*. This is particularly important for glob commands which may not always show you the correct results if you add a new source file.|
-| ------------ | --- |
+### TIPS
+> For modern CMake it is NOT recommended to use a variable for sources. Instead it is typical to directly declare the sources in the *add_xxx function*. This is particularly important for glob commands which may not always show you the correct results if you add a new source file.
 
 ### Including Directories
 
