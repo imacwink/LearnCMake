@@ -38,14 +38,14 @@ add_library(hello_library STATIC
 )
 ```
 
-> This will be used to create a static library with the name libhello_library.a with the sources in the **add_library** call.
+This will be used to create a static library with the name libhello_library.a with the sources in the **add_library** call.
 
 ### NOTE
-> As mentioned in the previous example, we pass the source files directly to the **add_library** call, as recommended for modern CMake.
+As mentioned in the previous example, we pass the source files directly to the **add_library** call, as recommended for modern CMake.
 
 ### Populating Including Directories
 
-> In this example, we include directories in the library using the **target_include_directories()** function with the scope set to **PUBLIC**.
+In this example, we include directories in the library using the **target_include_directories()** function with the scope set to **PUBLIC**.
 
 ```cmake
 target_include_directories(hello_library
@@ -80,7 +80,7 @@ Using this method means that there is less chance of header filename clashes whe
 
 ### Linking a Library
 
-> When creating an executable that will use your library you must tell the compiler about the library. This can be done using the **target_link_libraries()** function.
+When creating an executable that will use your library you must tell the compiler about the library. This can be done using the **target_link_libraries()** function.
 
 ```cmake
 add_executable(hello_binary 
