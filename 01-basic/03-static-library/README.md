@@ -1,7 +1,6 @@
 ## Introduction
 
-> Shows a hello world example which first creates and links a static library. This is a simplified example showing the library and binary in the same folder. Typically
-these would be in sub-projects as described in section link:../../02-sub-projects[02-sub-projects]
+> Shows a hello world example which first creates and links a static library. 
 
 The files in this tutorial are below:
 
@@ -34,7 +33,7 @@ The **add_library()** function is used to create a library from some source file
 
 ```cmake
 add_library(hello_library STATIC 
-    src/Hello.cpp
+    src/Hello.cxx
 )
 ```
 
@@ -84,7 +83,7 @@ When creating an executable that will use your library you must tell the compile
 
 ```cmake
 add_executable(hello_binary 
-    src/main.cpp
+    src/main.cxx
 )
 
 target_link_libraries( hello_binary

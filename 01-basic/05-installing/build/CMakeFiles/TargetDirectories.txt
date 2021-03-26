@@ -1,8 +1,0 @@
-/home/macwink/Workspace/LearnCMake/01-basic/05-installing/build/CMakeFiles/install/strip.dir
-/home/macwink/Workspace/LearnCMake/01-basic/05-installing/build/CMakeFiles/install/local.dir
-/home/macwink/Workspace/LearnCMake/01-basic/05-installing/build/CMakeFiles/cmake_examples_inst_bin.dir
-/home/macwink/Workspace/LearnCMake/01-basic/05-installing/build/CMakeFiles/cmake_examples_inst.dir
-/home/macwink/Workspace/LearnCMake/01-basic/05-installing/build/CMakeFiles/list_install_components.dir
-/home/macwink/Workspace/LearnCMake/01-basic/05-installing/build/CMakeFiles/edit_cache.dir
-/home/macwink/Workspace/LearnCMake/01-basic/05-installing/build/CMakeFiles/rebuild_cache.dir
-/home/macwink/Workspace/LearnCMake/01-basic/05-installing/build/CMakeFiles/install.dir

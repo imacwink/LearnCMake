@@ -10,6 +10,8 @@ project(hello_library)
 add_library(hello_library SHARED 
     src/shared/Hello.cxx
 )
+
+# Reference the target using the alias name when linking it against other targets
 add_library(hello::library ALIAS hello_library)
 
 target_include_directories(hello_library

@@ -1,1 +1,0 @@
-/usr/bin/c++     CMakeFiles/cmake_examples_inst_bin.dir/src/main.cxx.o  -o cmake_examples_inst_bin -Wl,-rpath,/home/macwink/Workspace/LearnCMake/01-basic/05-installing/build: libcmake_examples_inst.so 
